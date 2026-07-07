@@ -1,0 +1,16 @@
+asl_env/
+venv/
+.env/
+__pycache__/
+*.pyc
+
+data/raw/
+data/processed/
+
+asl/asl_alphabet_train/
+asl/asl_alphabet_test/
+
+*.h5
+*.keras
+*.pkl
+*.joblib
