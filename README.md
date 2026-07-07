@@ -7,6 +7,22 @@ A real-time American Sign Language recognition project built with Python, comput
 
 This project was built to explore how machine learning can be used for accessibility and real-time visual recognition. It combines image preprocessing, model training, saved model outputs, and webcam-based prediction into one end-to-end ML application.
 
+## Dataset
+
+This project was trained using the [ASL Alphabet dataset on Kaggle](https://www.kaggle.com/datasets/grassknoted/asl-alphabet).
+
+The full dataset is not included in this repository because it contains thousands of image files and would make the repository unnecessarily large. Instead, the dataset should be downloaded directly from Kaggle and placed locally in the expected folder structure before training.
+
+Expected structure:
+```text
+asl/
+├── asl_alphabet_train/
+│   ├── A/
+│   ├── B/
+│   ├── C/
+│   └── ...
+└── asl_alphabet_test/
+
 ## Features
 
 - Trains a machine learning model on ASL alphabet image data
