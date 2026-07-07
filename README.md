@@ -22,6 +22,7 @@ asl/
 │   ├── C/
 │   └── ...
 └── asl_alphabet_test/
+```text
 
 ## Features
 
