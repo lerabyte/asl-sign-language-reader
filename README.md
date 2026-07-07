@@ -1,5 +1,3 @@
-# asl-sign-language-reader
-Live sign language recognition using Python, computer vision, and a trained machine learning model.
 
 # ASL Sign Language Reader
 
@@ -19,10 +17,10 @@ This project was built to explore how machine learning can be used for accessibi
 
 ## Files
 
-- `train_asl_model.py` — trains the ASL recognition model
-- `webcam_asl.py` — runs real-time webcam prediction
-- `asl_model_output/` — contains model output metadata
-- `.gitignore` — excludes the full dataset and virtual environment from GitHub
+The following files are included for the following purposes:
+- train_asl_model.py — trains the ASL recognition model
+- webcam_asl.py — runs real-time webcam prediction
+- asl_model_output/ — contains model output metadata
 
 ## Dataset Note
 
@@ -39,4 +37,4 @@ The full ASL image dataset is not included in this repository because of size li
 
 ## What I Learned
 
-Through this project, I learned how to structure an end-to-end computer vision project, train a model on image data, manage large datasets locally, and connect a trained model to a real-time webcam application.
+Through this project, I learned how to structure an end-to-end computer vision project, train a model on image data, manage large datasets locally, and connect a trained model to a real-time webcam application. It's one of the coolest things I've built :)
